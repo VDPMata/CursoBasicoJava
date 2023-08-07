@@ -19,7 +19,7 @@ public class PrimerosPasosTest {
     @Test
     void testArgDolares() {
         int resultado = PrimerosPasos.argDolares(1000);
-        Assertions.assertEquals(525000, resultado);
+        Assertions.assertEquals(525000, resultado, "el resultado deberia ser 525000");
     }
 
     @Test
@@ -30,26 +30,26 @@ public class PrimerosPasosTest {
 
     @Test
     void testDivision() {
-        int resultado = PrimerosPasos.division(4, 2);
-        Assertions.assertEquals(2, resultado);
+        int resultado = PrimerosPasos.division(8, 4);
+        Assertions.assertEquals(2, resultado, "El resultado deberia ser 2");
     }
 
     @Test
     void testElevarCuadrado() {
         int resultado = PrimerosPasos.elevarCuadrado(5);
-        Assertions.assertEquals(25, resultado);
+        Assertions.assertEquals(25, resultado, "El resultado deberia ser 25");
     }
 
     @Test
     void testElevarCubo() {
         int resultado = PrimerosPasos.elevarCubo(5);
-        Assertions.assertEquals(125, resultado);
+        Assertions.assertEquals(125, resultado, "El resultado deberia ser 125");
     }
 
     @Test
     void testElevarExp() {
         double resultado = PrimerosPasos.elevarExp(2, 5);
-        Assertions.assertEquals(32,resultado);
+        Assertions.assertEquals(32,resultado, "El resultado deberia ser 32");
     }
 
     @Test
@@ -61,49 +61,49 @@ public class PrimerosPasosTest {
     @Test
     void testMayor() {
         int resultado = PrimerosPasos.mayor(5,3);
-        Assertions.assertEquals(5, resultado);
+        Assertions.assertEquals(5, resultado, "El resultado deberia ser el primer numero");
     }
 
     @Test
     void testMayorB(){
         int resultado = PrimerosPasos.mayor(3, 5);
-        Assertions.assertEquals(5, resultado);
+        Assertions.assertEquals(5, resultado, "El resultado deberia ser el segundo numero");
     }
 
     @Test
     void testMayorTresABC() {
         int resultado = PrimerosPasos.mayorTres(8, 3, 5);
-        Assertions.assertEquals(8, resultado);
+        Assertions.assertEquals(8, resultado, "El resultado deberia ser el primero numero");
     }
 
     @Test
     void testMayorTresBAC() {
         int resultado = PrimerosPasos.mayorTres(5, 8, 3);
-        Assertions.assertEquals(8, resultado);
+        Assertions.assertEquals(8, resultado, "El resultado deberia ser el segundo numero");
     }
 
     @Test
     void testMayorTresCAB() {
         int resultado = PrimerosPasos.mayorTres(5, 3, 8);
-        Assertions.assertEquals(8, resultado);
+        Assertions.assertEquals(8, resultado, "El resultado deberia ser el tercero numero");
     }
     
     @Test
     void testModulo() {
         int resultado = PrimerosPasos.modulo(4, 2);
-        Assertions.assertEquals(0, resultado);
+        Assertions.assertEquals(0, resultado, "El resultado deberia ser 0");
     }
 
     @Test
     void testMultiplicacion() {
         int resultado = PrimerosPasos.multiplicacion(4, 8);
-        Assertions.assertEquals(32, resultado);
+        Assertions.assertEquals(32, resultado, "El resultado deberia ser 32");
     }
 
     @Test
     void testNombreApellido() {
         String resultado = PrimerosPasos.nombreApellido("VDP", "Mata");
-        Assertions.assertEquals("VDP Mata", resultado);
+        Assertions.assertEquals("VDP Mata", resultado, "El resultado deberia ser: VDP Mata");
     }
 
     @Test
@@ -127,24 +127,24 @@ public class PrimerosPasosTest {
     @Test
     void testNumeroMayorNoventaFalse() {
         boolean resultado = PrimerosPasos.numeroMayorNoventa(80);
-        Assertions.assertFalse(resultado,"El numero 80 es mayor que 90");
+        Assertions.assertFalse(resultado,"El numero 80 es menor que 90");
     }
 
     @Test
     void testNumeroMenorCincuentaTrue() {
         boolean resultado = PrimerosPasos.numeroMenorCincuenta(40);
-        Assertions.assertTrue(resultado);
+        Assertions.assertTrue(resultado, "El numero 40 es menor que 50");
     }
     @Test
     void testNumeroMenorCincuentaFalse() {
         boolean resultado = PrimerosPasos.numeroMenorCincuenta(60);
-        Assertions.assertFalse(resultado);        
+        Assertions.assertFalse(resultado, "El numero 60 es mayor que 50");        
     }
 
     @Test
     void testNumeroRedondo() {
         double resultado = PrimerosPasos.numeroRedondo(3.7);
-        Assertions.assertEquals(4, resultado);
+        Assertions.assertEquals(4, resultado, "El número 3.7 debería redondearse hacia arriba a 4");
     }
 
     @Test
@@ -168,7 +168,7 @@ public class PrimerosPasosTest {
     @Test
     void testPerimetro() {
         int resultado = PrimerosPasos.perimetro(4);
-        Assertions.assertEquals(16, resultado);
+        Assertions.assertEquals(16, resultado, "El perimetro deberia ser 16");
     }
 
     @Test
@@ -229,7 +229,7 @@ public class PrimerosPasosTest {
     @Test
     void testSumaFor() {
         int resultado = PrimerosPasos.sumaFor(5, 10);
-        Assertions.assertEquals(45, resultado);
+        Assertions.assertEquals(45, resultado, "El resultado deberia ser 45");
     }
 
 

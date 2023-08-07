@@ -10,7 +10,11 @@ public class PrimerosPasos {
     // Retorna un dato de tipo "String", puede contener lo que quieras:
     public static Object str(){
         // Tu codigo:
-        return "Hola";
+        // Ejemplo1:
+        String palabra = "Hola";
+        return palabra;
+        // Ejemplo2:
+        //return "Hola";
     }
 
     // Retorna un dato de tipo "Int", puede ser cualquier numero dentro del rango de los Int:
@@ -40,6 +44,9 @@ public class PrimerosPasos {
     // las variables "a" e "b" son variables ingresadas por parametros
     // para resolver el metodo hay que retornar la suma de "x + y"
         // Tu codigo:    
+        // int suma = a+b;
+        //return suma;
+
         
     }
 
@@ -70,11 +77,13 @@ public class PrimerosPasos {
     // Retorna el numero mas alto
     public static int mayor(int a, int b){
         //Tu codigo:
+      
     }
 
     // Retorna el numero mas alto entre 3 numeros
     public static int mayorTres(int a, int b, int c){
         //Tu codigo:
+
     }
 
     // Retorna "True" si los numeros son iguales, "false" si no lo son

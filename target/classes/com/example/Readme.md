@@ -110,12 +110,6 @@ public class SalidaDatos {
 ## Control de Flujo
 En programación, el control de flujo se refiere a la forma en que se ejecutan las instrucciones y cómo se toman decisiones basadas en condiciones específicas. En Java, podemos utilizar estructuras condicionales y estructuras de bucle para controlar el flujo de ejecución de un programa.
 
-## Algunos ejemplos de operadores lógicos son:
-
-- AND: && (retorna verdadero si ambas condiciones son verdaderas)
-- OR: || (retorna verdadero si al menos una de las condiciones es verdadera)
-- NOT: ! (niega el resultado de una condición)
-
 ## Estructuras Condicionales (if, else if, else)
  Las estructuras condicionales nos permiten tomar decisiones en función de condiciones específicas. En Java, utilizamos las siguientes palabras clave para definir estructuras condicionales:
 
@@ -160,6 +154,12 @@ if (numero1 > numero2) {
 - La condición dentro del if es numero1 > numero2, lo que significa que se evaluará si el valor de numero1 es mayor que el valor de numero2.
 - Si la condición (numero1 > numero2) es verdadera, entonces se ejecutará el bloque de código dentro del if, que es System.out.println(numero1);. Esto imprimirá el valor de numero1.
 - Si la condición numero1 > numero2 es falsa, entonces se ejecutará el bloque de código dentro del else, que es System.out.println(numero2); Esto imprimirá el valor de numero2.
+
+## Algunos ejemplos de operadores lógicos son:
+
+- AND: && (retorna verdadero si ambas condiciones son verdaderas)
+- OR: || (retorna verdadero si al menos una de las condiciones es verdadera)
+- NOT: ! (niega el resultado de una condición)
 
 ## Operadores de Comparación
 En las estructuras condicionales, utilizamos operadores de comparación para evaluar condiciones. Los operadores de comparación permiten comparar valores y producir resultados booleanos (verdadero o falso). Aquí están algunos ejemplos de operadores de comparación en Java:
@@ -226,8 +226,6 @@ while (numero <= 5) {
 5
 ```
 
-
-
 ## do-while
 La estructura do-while es similar a while, pero garantiza que el bloque de código se ejecutará al menos una vez, ya que la condición se evalúa después de la primera ejecución. La sintaxis es la siguiente:
 
@@ -242,6 +240,6 @@ Con estas estructuras de control de flujo, podemos tomar decisiones y repetir bl
 
 Es comprensible que en este punto puedas tener algunas dudas, ya que aprender a programar no es algo que ocurra de manera instantánea. En este proceso de aprendizaje, es natural que necesitemos realizar investigaciones adicionales y cultivar una actitud curiosa para mejorar nuestras habilidades.
 
-Con este enfoque, ahora procederemos a abordar la carpeta de ejercicios. En esta etapa, podremos aplicar los conocimientos adquiridos hasta el momento y enfrentarnos a desafíos prácticos que fortalecerán nuestras habilidades de programación en Java.
+Con este enfoque, ahora procederemos a abordar los [Primeros Pasos](PrimerosPasos.java). En esta etapa, podremos aplicar los conocimientos adquiridos hasta el momento y enfrentarnos a desafíos prácticos que fortalecerán nuestras habilidades de programación en Java.
 
 Recuerda que el aprendizaje de la programación es un viaje continuo, y cada obstáculo que superamos nos acerca un paso más a la maestría. ¡Sigamos adelante con entusiasmo y determinación en este emocionante mundo de la programación!

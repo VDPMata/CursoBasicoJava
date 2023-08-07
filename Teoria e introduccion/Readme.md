@@ -1,3 +1,27 @@
+## Contenido del Punto 1 - Introducción a la Programación y Java
+
+En esta sección introductoria, los estudiantes se familiarizarán con los conceptos fundamentales de la programación y obtendrán una visión general de Java como lenguaje de programación.
+
+1. ¿Qué es la programación?
+   - Definición de programación.
+   - Importancia de la programación en la era digital.
+   - Introducción a la resolución de problemas mediante programación.
+
+2. Introducción a Java
+   - ¿Qué es Java y por qué es popular?
+   - Historia de Java y su evolución.
+   - Diferencias entre Java y otros lenguajes de programación.
+
+3. Configuración del entorno de desarrollo
+   - Descarga e instalación del JDK (Java Development Kit).
+   - Instalación de un IDE (Integrated Development Environment).
+   - Verificación del entorno de desarrollo configurado.
+
+4. Primer programa en Java
+   - Estructura básica de un programa Java.
+   - Creación de un programa "Hola Mundo" en Java.
+   - Compilación y ejecución del programa.
+
 ## 1. ¿Qué es la programación?
 
 La programación es el proceso de escribir instrucciones para una computadora con el fin de realizar tareas y resolver problemas. Consiste en crear un conjunto de comandos y algoritmos que permiten a una máquina llevar a cabo una serie de acciones de manera secuencial o condicional.
@@ -61,13 +85,13 @@ En este tutorial, te guiaré paso a paso para configurar el entorno de desarroll
 
 2.4. Ejecuta el archivo de instalación y sigue las instrucciones para completar la instalación del IDE en tu sistema.
 
-## Paso 3: Verificación del entorno de desarrollo configurado
+## 4 Primer programa en Java
 
-3.1. Abre tu IDE recién instalado.
+- Abre tu IDE recién instalado.
 
-3.2. Crea un nuevo proyecto o archivo de Java. La mayoría de los IDEs ofrecen plantillas para proyectos de Java o la opción de crear un archivo de clase Java en blanco.
+- Crea un nuevo proyecto o archivo de Java. La mayoría de los IDEs ofrecen plantillas para proyectos de Java o la opción de crear un archivo de clase Java en blanco.
 
-3.3. Escribe un programa Java simple, por ejemplo, el clásico "Hola Mundo":
+- Escribe un programa Java simple, por ejemplo, el clásico "Hola Mundo":
 
 ```java
 public class HolaMundo {
@@ -77,8 +101,8 @@ public class HolaMundo {
 }
 ```
 
-3.4. Guarda el archivo con una extensión ".java" (por ejemplo, "HolaMundo.java").
+- Guarda el archivo con una extensión ".java" (por ejemplo, "HolaMundo.java").
 
-3.5. Intenta compilar y ejecutar el programa. Si todo está configurado correctamente, deberías ver "Hola Mundo" impreso en la consola.
+- Intenta compilar y ejecutar el programa. Si todo está configurado correctamente, deberías ver "Hola Mundo" impreso en la consola.
 
 ¡Felicidades! Has configurado con éxito tu entorno de desarrollo para Java. Ahora estás listo para empezar a programar en este emocionante lenguaje. ¡Disfruta de tu experiencia de desarrollo en Java!
