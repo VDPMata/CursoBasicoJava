@@ -1,4 +1,4 @@
-## Contenido del Punto 1 - Introducción a la Programación y Java
+## Introducción a la Programación y Java
 
 En esta sección introductoria, los estudiantes se familiarizarán con los conceptos fundamentales de la programación y obtendrán una visión general de Java como lenguaje de programación.
 
@@ -99,6 +99,10 @@ public class HolaMundo {
         System.out.println("Hola Mundo");
     }
 }
+```
+Consola:
+```bash
+Hola mundo
 ```
 
 - Guarda el archivo con una extensión ".java" (por ejemplo, "HolaMundo.java").

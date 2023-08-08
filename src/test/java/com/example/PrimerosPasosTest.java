@@ -35,24 +35,6 @@ public class PrimerosPasosTest {
     }
 
     @Test
-    void testElevarCuadrado() {
-        int resultado = PrimerosPasos.elevarCuadrado(5);
-        Assertions.assertEquals(25, resultado, "El resultado deberia ser 25");
-    }
-
-    @Test
-    void testElevarCubo() {
-        int resultado = PrimerosPasos.elevarCubo(5);
-        Assertions.assertEquals(125, resultado, "El resultado deberia ser 125");
-    }
-
-    @Test
-    void testElevarExp() {
-        double resultado = PrimerosPasos.elevarExp(2, 5);
-        Assertions.assertEquals(32,resultado, "El resultado deberia ser 32");
-    }
-
-    @Test
     void testIguales() {
         boolean resultado = PrimerosPasos.iguales(5, 5);
         Assertions.assertTrue(resultado, "El resultado deberia ser true");
@@ -142,18 +124,6 @@ public class PrimerosPasosTest {
     }
 
     @Test
-    void testNumeroRedondo() {
-        double resultado = PrimerosPasos.numeroRedondo(3.7);
-        Assertions.assertEquals(4, resultado, "El número 3.7 debería redondearse hacia arriba a 4");
-    }
-
-    @Test
-    void testNumeroRedondoAbajo() {
-        double resultado = PrimerosPasos.numeroRedondoAbajo(3.7);
-        Assertions.assertEquals(3, resultado, "El número 3.7 debería redondearse hacia abajo a 3");
-    }
-
-    @Test
     void testParOImparPar() {
         boolean resultado = PrimerosPasos.parOImpar(10);
         Assertions.assertTrue(resultado, "El número 10 debería ser identificado como par");
@@ -209,28 +179,9 @@ public class PrimerosPasosTest {
     }
 
     @Test
-    void testStrLongitudIguales() {
-        boolean resultado1 = PrimerosPasos.strLongitud("abc", "xyz");
-        Assertions.assertTrue(resultado1, "Las cadenas 'abc' y 'xyz' deberían tener la misma longitud");
-    }
-
-    @Test
-    void testStrLongitudDiferentes() {
-        boolean resultado2 = PrimerosPasos.strLongitud("hola", "mundo");
-        Assertions.assertFalse(resultado2, "Las cadenas 'hola' y 'mundo' no deberían tener la misma longitud");
-    }
-
-    @Test
     void testSuma() {
         int resultado = PrimerosPasos.suma(11,10);
         Assertions.assertEquals(21, resultado, "El resultado deberia ser 5");
     }
-
-    @Test
-    void testSumaFor() {
-        int resultado = PrimerosPasos.sumaFor(5, 10);
-        Assertions.assertEquals(45, resultado, "El resultado deberia ser 45");
-    }
-
 
 }

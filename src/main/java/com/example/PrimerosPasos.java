@@ -10,11 +10,13 @@ public class PrimerosPasos {
     // Retorna un dato de tipo "String", puede contener lo que quieras:
     public static Object str(){
         // Tu codigo:
-        // Ejemplo1:
+
+        // Ejemplo 1:
         String palabra = "Hola";
         return palabra;
-        // Ejemplo2:
-        //return "Hola";
+
+        // Ejemplo 2:
+        // return "Hola";
     }
 
     // Retorna un dato de tipo "Int", puede ser cualquier numero dentro del rango de los Int:
@@ -91,11 +93,6 @@ public class PrimerosPasos {
         //Tu codigo:
     }
 
-    // Retorna "true" si las dos string tienen la misma longitud o "false" de lo contrario
-    public static boolean strLongitud(String str1, String str2){
-        //Tu codigo:
-    }
-
     // Retorna "true" si el numero es mayor a 90. "false" si no lo es.
     public static boolean numeroMayorNoventa(int a){
         //Tu codigo:
@@ -111,36 +108,6 @@ public class PrimerosPasos {
     public static boolean parOImpar(int a){
         //Tu codigo:
 
-    }
-
-    // Retornar el numero elevado al cuadrado.
-    public static int elevarCuadrado(int a){
-        //Tu codigo:
-       
-    }
-
-    // Retornar el numero elevado al cubo.
-    public static int elevarCubo(int a){
-        //Tu codigo:
-        
-    }
-
-    // Retorna un numero elevado al exponente
-    public static double elevarExp(int num, int exp){
-        //Tu codigo:
-       
-    }
-
-    // Redondea un numero
-    public static double numeroRedondo(double a){
-        //Tu codigo:
-        
-    }
-
-    // Redondea un numero para abajo
-    public static double numeroRedondoAbajo(double a){
-        //Tu codigo:
-       
     }
 
     // Dado un entero. Devolver un string que diga:
@@ -186,18 +153,9 @@ public class PrimerosPasos {
     }
 
     // Convertir de pesos arg a dolares 
-    // valor de cambio 1 dolar = 525 pesos
+    // valor de cambio 1 dolar = 595 pesos
     public static int argDolares(int pesos){
         //Tu codigo:
         
-    }
-
-    /***************** Bucles *****************/
-
-    // Usa un for para sumar todos los numeros que hay dentro de 2 numeros, inclusive los ingresados
-    // Ejemplo: 5 + 10 ===> 45
-    public static int sumaFor(int num1, int num2){
-        //Tu codigo:
-
     }
 }

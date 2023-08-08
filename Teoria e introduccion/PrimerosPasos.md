@@ -17,6 +17,7 @@ public class MiClase {
 class indica que estamos definiendo una clase.
 - MiClase es el nombre de la clase, que debe comenzar con una letra mayúscula.
 - El método main es el punto de entrada del programa y se ejecutará primero cuando inicies el programa.
+
 ## Variables y tipos de datos
 En Java, las variables son utilizadas para almacenar datos. Antes de usar una variable, debemos declararla y especificar su tipo de dato. Algunos tipos de datos comunes en Java son:
 
@@ -91,20 +92,30 @@ public class EntradaDatos {
 - Scanner scanner = new Scanner(System.in); Creamos una instancia de la clase Scanner llamada scanner. Esta instancia nos permitirá leer la entrada del usuario desde la consola.
 
 - System.out.print("Ingresa tu nombre: "); Mostramos en la consola el mensaje "Ingresa tu nombre: ". El método print no agrega una nueva línea después del mensaje, por lo que el cursor permanecerá en la misma línea para que el usuario pueda ingresar su nombre a continuación.
-
+Consola:
+```bash
+Ingresa tu nombre
+```
 - String nombre = scanner.nextLine(); Leemos la entrada del usuario utilizando el método nextLine() del objeto scanner y almacenamos el resultado en una variable llamada nombre de tipo String. nextLine() lee la línea completa que ingrese el usuario y la asigna a la variable nombre.
 
 - System.out.println("Hola, " + nombre + ". ¡Bienvenido!"); Mostramos en la consola un mensaje de bienvenida personalizado utilizando la variable nombre que hemos leído previamente. La función println agrega una nueva línea después del mensaje, por lo que el siguiente texto se mostrará en una nueva línea.
-
+Consola:
+```bash
+Hola Nicolas. ¡Bienvenido!
+```
 ## Ejemplo de salida:
 
 ```java
 public class SalidaDatos {
     public static void main(String[] args) {
-        String mensaje = "Hola Mundo";
+        String mensaje = "Hola, este es tu primer mensaje guardado en una variable";
         System.out.println(mensaje);
     }
 }
+```
+Consola:
+```bash
+Hola, este es tu primer mensaje guardado en una variable
 ```
 
 ## Control de Flujo
@@ -112,6 +123,22 @@ En programación, el control de flujo se refiere a la forma en que se ejecutan l
 
 ## Estructuras Condicionales (if, else if, else)
  Las estructuras condicionales nos permiten tomar decisiones en función de condiciones específicas. En Java, utilizamos las siguientes palabras clave para definir estructuras condicionales:
+
+## Algunos ejemplos de operadores lógicos son:
+    
+- AND: && (retorna verdadero si ambas condiciones son verdaderas)
+- OR: || (retorna verdadero si al menos una de las condiciones es verdadera)
+- NOT: ! (niega el resultado de una condición)
+    
+## Operadores de Comparación
+En las estructuras condicionales, utilizamos operadores de comparación para evaluar condiciones. Los operadores de comparación permitencomparar valores y producir resultados booleanos (verdadero o falso). Aquí están algunos ejemplos de operadores de comparación en Java:
+    
+- " == " Igual a (compara si dos valores son iguales).
+- " != " Diferente de (compara si dos valores son diferentes).
+- " > " Mayor que (compara si el valor de la izquierda es mayor que el valor de  la derecha).
+- " < " Menor que (compara si el valor de la izquierda es menor que el valor de  la derecha).
+- " >= " Mayor o igual que (compara si el valor de la izquierda es mayor o igual que el valor de la derecha).
+- " <= " Menor o igual que (compara si el valor de la izquierda es menor o igual que el valor de la derecha).
 
 ## if
  La estructura if permite ejecutar un bloque de código si se cumple una condición determinada. La sintaxis es la siguiente:
@@ -145,96 +172,15 @@ if (condicion1) {
 
 ```java
 if (numero1 > numero2) {
-    System.out.println(numero1);
+    return numero1;
 } else {
-    System.out.println(numero2);
+    return numero2;
 }
 ```
-- numero1 y numero2 son dos variables que se comparan en la condición del if.
-- La condición dentro del if es numero1 > numero2, lo que significa que se evaluará si el valor de numero1 es mayor que el valor de numero2.
-- Si la condición (numero1 > numero2) es verdadera, entonces se ejecutará el bloque de código dentro del if, que es System.out.println(numero1);. Esto imprimirá el valor de numero1.
-- Si la condición numero1 > numero2 es falsa, entonces se ejecutará el bloque de código dentro del else, que es System.out.println(numero2); Esto imprimirá el valor de numero2.
-
-## Algunos ejemplos de operadores lógicos son:
-
-- AND: && (retorna verdadero si ambas condiciones son verdaderas)
-- OR: || (retorna verdadero si al menos una de las condiciones es verdadera)
-- NOT: ! (niega el resultado de una condición)
-
-## Operadores de Comparación
-En las estructuras condicionales, utilizamos operadores de comparación para evaluar condiciones. Los operadores de comparación permiten comparar valores y producir resultados booleanos (verdadero o falso). Aquí están algunos ejemplos de operadores de comparación en Java:
-
-- " == " Igual a (compara si dos valores son iguales).
-- " != " Diferente de (compara si dos valores son diferentes).
-- " > " Mayor que (compara si el valor de la izquierda es mayor que el valor de  la derecha).
-- " < " Menor que (compara si el valor de la izquierda es menor que el valor de  la derecha).
-- " >= " Mayor o igual que (compara si el valor de la izquierda es mayor o igual que el valor de la derecha).
-- " <= " Menor o igual que (compara si el valor de la izquierda es menor o igual que el valor de la derecha).
-
-## Estructuras de Bucle (for, while, do-while)
-Las estructuras de bucle nos permiten repetir un bloque de código varias veces. En Java, tenemos tres tipos de estructuras de bucle:
-
-## for
-La estructura for se utiliza para ejecutar un bloque de código un número específico de veces. La sintaxis es la siguiente:
-```java
-for (inicialización; condición; actualización) {
-    // código a ejecutar en cada iteración
-}
-```
-```java
-for (int i = 1; i <= 5; i++) {
-    System.out.println(i);
-}
-```
-
-- En el bucle for, definimos una variable i e inicializamos su valor en 1 (int i = 1).
-- La condición del bucle es i <= 5, lo que significa que el bucle se ejecutará siempre que el valor de i sea menor o igual a 5.
-- Después de cada iteración del bucle, se ejecuta la expresión i++, que incrementa el valor de i en 1.
-- El bloque de código dentro del bucle for es System.out.println(i); que imprime el valor actual de i en cada iteración.
-- El resultado de este código será:
-```bash
-1
-2
-3
-4
-5
-```
-
-## while
-La estructura while se utiliza para repetir un bloque de código mientras se cumpla una condición específica. La sintaxis es la siguiente:
-```java
-while (condición) {
-    // código a ejecutar mientras la condición sea verdadera
-}
-```
-```java
-int = numero = 1;
-while (numero <= 5) {
-    System.out.println(numero);
-    numero++;
-}
-```
-- Definimos una variable numero e inicializamos su valor en 1.
-- Usamos un bucle while que ejecutará el bloque de código dentro de él mientras la condición (numero <= 5) sea verdadera.
-- En cada iteración del bucle, imprimimos el valor actual de numero usando System.out.println(numero) y luego incrementamos el valor de numero en 1 con numero++.
-- Este codigo imprimira lo siguiente por consola:
-```bash
-1
-2
-3
-4
-5
-```
-
-## do-while
-La estructura do-while es similar a while, pero garantiza que el bloque de código se ejecutará al menos una vez, ya que la condición se evalúa después de la primera ejecución. La sintaxis es la siguiente:
-
-```java
-do {
-    // código a ejecutar al menos una vez
-} while (condición);
-```
-Con estas estructuras de control de flujo, podemos tomar decisiones y repetir bloques de código en función de las condiciones que establezcamos. Esto nos permite crear programas más flexibles y dinámicos.
+- 'numero1' y 'numero2' son dos variables que se comparan en la condición del if.
+- La condición dentro del if es 'numero1' > 'numero2', lo que significa que se evaluará si el valor de numero1 es mayor que el valor de 'numero2'.
+- Si la condición ('numero1' > 'numero2') es verdadera, entonces se ejecutará el bloque de código dentro del if, que es retornar el 'numero1'.
+- Si la condición 'numero1' > 'numero2' es falsa, entonces se ejecutará el bloque de código dentro del else, que es retornar el 'numero2' .
 
 ## Extras
 

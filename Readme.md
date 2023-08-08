@@ -18,11 +18,12 @@ El repositorio está organizado de la siguiente manera:
    📁 src
         📁 main\java\com\example
             📄 PrimerosPasos.java
-            📄 Readme.md
         📁 test\java\com\example
             📄 PrimerosPasosTest.java
         📁 Target
         📁 Teoria e introduccion
+            📄 Introduccion.md
+            📄 PrimerosPasos.md
    📄 pom.xml
    📄 Readme.md
 ```
@@ -30,9 +31,8 @@ El repositorio está organizado de la siguiente manera:
 - src: Esta carpeta contiene el código fuente del proyecto.
 - main\java\com\example: Esta es la estructura de paquetes Java del proyecto. Aquí encontrarás los archivos de código Java.
 - PrimerosPasos.java: Un archivo Java que contiene ejercicios para realizar y practicar.
-- Readme.md: Este archivo Readme.md proporciona información adicional sobre teoria acerca de los ejercicios.
-- test\java\com\example: Un archivo de prueba Java que cubre los ejercicios de PrimerosPasos.java
-- Teoria e introduccion: Por aca vas a iniciar
+- test\java\com\example: Un archivo de prueba Java que cubre los ejercicios.
+- Teoria e introduccion: Por aca vas a iniciar a leer teoria para realizar los ejercicios.
 - pom.xml: Este archivo contiene la configuración del proyecto si estamos utilizando Maven como herramienta de gestión de dependencias. No te preocupes si no sabes qué es, a menos que se especifique lo contrario, no necesitas modificarlo.
 - Readme.md Este archivo contiene ------------->>>>> Read The Fucking Manual
 
