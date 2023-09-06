@@ -18,8 +18,14 @@ public class StringMathTest {
     }
 
     @Test
+    void testElevarExp() {
+        double resultado = StringMath.elevarExp(2, 5);
+        Assertions.assertEquals(32, resultado, "El resultado deberia ser 32");
+    }
+
+    @Test
     void testNumeroRedondo() {
-        double resultado =  StringMath.numeroRedondo(3.7);
+        double resultado = StringMath.numeroRedondo(3.7);
         Assertions.assertEquals(4, resultado, "El número 3.7 debería redondearse hacia arriba a 4");
     }
 
@@ -41,10 +47,4 @@ public class StringMathTest {
         Assertions.assertEquals(125, resultado, "El resultado deberia ser 125");
     }
 
-    @Test
-    void testElevarExp() {
-        double resultado = StringMath.elevarExp(2, 5);
-        Assertions.assertEquals(32,resultado, "El resultado deberia ser 32");
-    }
-    
 }

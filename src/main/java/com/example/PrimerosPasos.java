@@ -16,13 +16,13 @@ public class PrimerosPasos {
         return palabra;
 
         // Ejemplo 2:
-        // return "Hola";
+        //return "hola";
     }
 
     // Retorna un dato de tipo "Int", puede ser cualquier numero dentro del rango de los Int:
     public static int num(){
         // Tu codigo:
-        
+       
     }
 
     // Retorna un dato de tipo "Caracter", puede ser cualquier caracter:
@@ -34,7 +34,7 @@ public class PrimerosPasos {
     // Retorna un dato de tipo "Double", puede ser cualquier numero decimal:
     public static double numDecimal(){
         // Tu codigo:
-        
+       
     }
 
     /***************** Operadores arimeticos y logicos *****************/
@@ -43,19 +43,16 @@ public class PrimerosPasos {
 
     // Retorna la suma de ambos numeros
     public static int suma(int a, int b){
-    // las variables "a" e "b" son variables ingresadas por parametros
-    // para resolver el metodo hay que retornar la suma de "x + y"
-        // Tu codigo:    
-        // int suma = a+b;
-        //return suma;
-
-        
+    // las variables "a" y "b" son variables ingresadas por parametros
+    // para resolver el metodo hay que retornar la suma de "a + b"
+        // Tu codigo:   
+         
     }
 
     // Retorna la resta de ambos numeros
     public static int resta(int a, int b){
         //Tu codigo:
-        
+      
     }
 
     // Retorna la division de ambos numeros
@@ -79,7 +76,7 @@ public class PrimerosPasos {
     // Retorna el numero mas alto
     public static int mayor(int a, int b){
         //Tu codigo:
-      
+   
     }
 
     // Retorna el numero mas alto entre 3 numeros
@@ -88,14 +85,16 @@ public class PrimerosPasos {
 
     }
 
-    // Retorna "True" si los numeros son iguales, "false" si no lo son
+    // Retorna "true" si los numeros son iguales, "false" si no lo son
     public static boolean iguales(int a, int b){
         //Tu codigo:
+    
     }
 
     // Retorna "true" si el numero es mayor a 90. "false" si no lo es.
     public static boolean numeroMayorNoventa(int a){
         //Tu codigo:
+       
     }
 
     // Retorna "true" si el numero es menor a 50. "false" si no lo es.
@@ -116,14 +115,14 @@ public class PrimerosPasos {
     // 0 ===> "False".
     public static String positivoONegativo(int a){
         //Tu codigo:
-      
+
     }
 
     // Dado un string agregar 3 simbolos de exclamacion.
     // Ejemplo: "hola mundo" quedaria "hola mundo!!!"
     public static String agregarExclamacion(String str){
         //Tu codigo:
-       
+    
     }
 
     // Dado dos string con "nombre" y "apellido" debe devolver un saludo
@@ -153,7 +152,7 @@ public class PrimerosPasos {
     }
 
     // Convertir de pesos arg a dolares 
-    // valor de cambio 1 dolar = 595 pesos
+    // valor de cambio 1 dolar = 780 pesos
     public static int argDolares(int pesos){
         //Tu codigo:
         

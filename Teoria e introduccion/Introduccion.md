@@ -75,6 +75,7 @@ En este tutorial, te guiaré paso a paso para configurar el entorno de desarroll
 ## Paso 2: Instalación de un IDE (Integrated Development Environment)
 
 2.1. Aunque puedes programar en Java utilizando un editor de texto simple y la línea de comandos, te recomiendo utilizar un IDE, ya que facilitará enormemente tu experiencia de desarrollo.
+   - [Visual Studio](https://code.visualstudio.com/): Edición de código. Redefinido. Gratis. Construido en código abierto. Corre por todas partes.
 
 2.2. Algunos IDEs populares para Java son:
    - [Eclipse](https://www.eclipse.org/downloads/): Eclipse es un IDE de código abierto ampliamente utilizado en la comunidad de desarrollo de Java.

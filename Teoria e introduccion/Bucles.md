@@ -1,7 +1,7 @@
 ## Estructuras de Bucle (for, while, do-while)
 Las estructuras de bucle nos permiten repetir un bloque de código varias veces. En Java, tenemos tres tipos de estructuras de bucle:
 
-## for
+## Bucle for i
 La estructura for se utiliza para ejecutar un bloque de código un número específico de veces. La sintaxis es la siguiente:
 ```java
 for (inicialización; condición; actualización) {

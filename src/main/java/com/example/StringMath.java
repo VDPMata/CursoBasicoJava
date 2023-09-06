@@ -1,13 +1,11 @@
 package com.example;
 
 public class StringMath {
-    public static void main(String[] args) {
-        
-    }
 
         // Retorna "true" si las dos string tienen la misma longitud o "false" de lo contrario
         public static boolean strLongitud(String str1, String str2){
             //Tu codigo:
+
         }
     
         // Retorna un numero elevado al exponente
@@ -39,4 +37,5 @@ public class StringMath {
             //Tu codigo:
                 
         }
+
 }
